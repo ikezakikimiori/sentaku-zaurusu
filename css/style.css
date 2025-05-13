@@ -45,11 +45,8 @@ a.slide-menu__link{
     font-size: 2.4rem;
 }
 
-.contact-section__form-button-area{
-   
-    
+.contact-section__form-button-area{ 
     padding: 16px 0 32px;
-
 }
 
 .contact-section__form-button {
@@ -60,8 +57,6 @@ a.slide-menu__link{
     border: 1px solid #979797;
     text-align: center;
 }
-
-
 
 section {
     padding: 100px 80px 80px; /* Adjusted top padding */
@@ -117,8 +112,6 @@ header {
 }
 
 /* Hamburger Menu */
-
-
 .hamburger-menu {
     display: none; /* デフォルトでは非表示 */
     width: 30px;
@@ -144,25 +137,22 @@ header {
     margin-bottom: 0;
 }
 
-
-
 .slide-menu {
     display: flex;
-    flex-direction: column; /* 縦並びにする */
-    justify-content: flex-start; /* 上寄せにする */
+    flex-direction: column;
+    justify-content: flex-start; 
     align-items: center;
     gap: 20px;
     position: fixed;
-    top: 0; /* 上端に固定 */
+    top: 0;
     right: -300px;
-    width: 250px; /* 幅を固定 */
-    height: 60vh; /* 画面いっぱいに表示 */
+    width: 250px; 
+    height: 60vh; 
     background-color: #ffffffee;
     transition: right 0.3s ease-in-out;
     border: #a8a6a6 solid 1px;
-    z-index: 1; /* ヘッダーの背面に表示 */
-    padding: 80px 0; /* 上部に余白を追加 */
-
+    z-index: 1;
+    padding: 80px 0;
     margin-top: 100px;
 }
 
@@ -175,30 +165,23 @@ header {
     flex-direction: column;
     align-items: center;
     list-style: none;
-    padding: 0; /* パディングを削除 */
-    width: 100%; /* 幅を100%にする */
+    padding: 0; 
+    width: 100%; 
     gap: 32px;
 }
 
 .slide-menu li {
-    width: 100%; /* 幅を100%にする */
-    text-align: center; /* テキストを中央揃えにする */
+    width: 100%; 
+    text-align: center;
     
 }
 
 .slide-menu a {
    
-    margin-bottom: 0; /* マージンを削除 */
-    padding: 16px 0; /* 上下にパディングを追加 */
-    width: 100%; /* 幅を100%にする */
+    margin-bottom: 0;
+    padding: 16px 0;
+    width: 100%; 
 }
-
-
-
-
-
-
-
 
 /* Top-view */
 .top-section {
@@ -234,7 +217,6 @@ header {
     background-position: right 160px;
 }
 
-
 .concept-section__inner {
     padding: 0 80px;
 }
@@ -244,11 +226,9 @@ header {
 }
 
 /* news */
-
 .news-container {
     padding: 80px 80px 0px;
 }
-
 
 /* Service */
 .service-section__list {
@@ -310,8 +290,6 @@ header {
     padding-top: 24px;
 }
 
-
-
 .about-section__area {
     display: flex;
     flex-direction: column;
@@ -368,14 +346,7 @@ header {
     h4 {
         font-size: 2rem;
     }
-/* 
-    .header__nav > .nav__list {
-        display: none;
-    }
 
-    .hamburger-menu {
-        display: block;
-    } */
     section{
         padding: 100px 0 80px;
     }
@@ -389,11 +360,11 @@ header {
     }
 
     .header__nav > .nav__list {
-        display: none; /* ナビゲーションを非表示 */
+        display: none;
     }
 
     .hamburger-menu {
-        display: block; /* ハンバーガーメニューを表示 */
+        display: block; 
     }
 
 }
@@ -422,8 +393,6 @@ header {
     .section{
         padding: 80px 0;
     }
-
-    
 
     .container {
         padding: 80px 24px;
@@ -491,8 +460,7 @@ header {
         flex-direction: column;
     }
 
-    
-.contact-section__form-button {
-    width: auto;
-}
+    .contact-section__form-button {
+        width: auto;
+    }
 }

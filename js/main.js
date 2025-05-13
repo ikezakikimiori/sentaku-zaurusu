@@ -9,7 +9,7 @@ const tl = gsap.timeline({ paused: true });
 // スライドメニューのアニメーション
 tl.to(slideMenu, {
     right: 0,
-    duration: 0.001, // アニメーション時間を非常に短く設定
+    duration: 0.001,
     ease: "none", 
 });
 
@@ -17,20 +17,20 @@ tl.to(slideMenu, {
 tl.to(hamburgerSpans[0], {
     y: 8,
     rotate: 45,
-    duration: 0.001, // アニメーション時間を非常に短く設定
+    duration: 0.001,
     ease: "none", 
 }, "<");
 
 tl.to(hamburgerSpans[1], {
     opacity: 0,
-    duration: 0.001, // アニメーション時間を非常に短く設定
+    duration: 0.001,
     ease: "none", 
 }, "<");
 
 tl.to(hamburgerSpans[2], {
     y: -8,
     rotate: -45,
-    duration: 0.001, // アニメーション時間を非常に短く設定
+    duration: 0.001,
     ease: "none",
 }, "<");
 
@@ -86,8 +86,8 @@ gsap.from('.main-title', {
     scrollTrigger: {
         trigger: '.main-title',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 75%',//上から75％の部分に活動するトリガーをつける）
+        // markers: true,
+        start: 'top 75%',
 
     },
 
@@ -101,8 +101,8 @@ gsap.from('.sub-title ', {
     scrollTrigger: {
         trigger: '.sub-title',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 75%',//上から75％の部分に活動するトリガーをつける）
+        // markers: true,
+        start: 'top 75%',
 
     },
 });
@@ -116,8 +116,8 @@ gsap.from('.top-section__text', {
     scrollTrigger: {
         trigger: '.top-section__text',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 75%',//上から75％の部分に活動するトリガーをつける）
+        // markers: true,
+        start: 'top 75%',
 
     },
 });
@@ -130,9 +130,8 @@ gsap.from('.concept-section__title', {
     scrollTrigger: {
         trigger: '.concept-section__title',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 });
 
@@ -145,9 +144,8 @@ gsap.from('.feature-title--01', {
     scrollTrigger: {
         trigger: '.feature-title--01',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 });
 
@@ -160,9 +158,8 @@ gsap.from('.section__text--01', {
     scrollTrigger: {
         trigger: '.section__text--01',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 });
 
@@ -175,9 +172,8 @@ gsap.from('.feature-title--02', {
     scrollTrigger: {
         trigger: '.feature-title--02',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 });
 
@@ -190,9 +186,8 @@ gsap.from('.section__text--02', {
     scrollTrigger: {
         trigger: '.section__text--02',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 });
 
@@ -205,9 +200,8 @@ gsap.from('.feature-title--03', {
     scrollTrigger: {
         trigger: '.feature-title--03',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 });
 
@@ -220,9 +214,8 @@ gsap.from('.section__text--03', {
     scrollTrigger: {
         trigger: '.section__text--03',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 });
 
@@ -238,9 +231,8 @@ gsap.from('.service-section__title--main', {
     scrollTrigger: {
         trigger: '.service-section__title--main',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 
 });
@@ -253,9 +245,8 @@ gsap.from('.card__01', {
     scrollTrigger: {
         trigger: '.card__01',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 
 });
@@ -268,9 +259,8 @@ gsap.from('.card__02', {
     scrollTrigger: {
         trigger: '.card__02',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 
 });
@@ -283,9 +273,8 @@ gsap.from('.card__03', {
     scrollTrigger: {
         trigger: '.card__03',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 
 });
@@ -298,9 +287,8 @@ gsap.from('.card__04', {
     scrollTrigger: {
         trigger: '.card__04',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 
 });
@@ -313,9 +301,8 @@ gsap.from('.card__05', {
     scrollTrigger: {
         trigger: '.card__05',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 
 });
@@ -328,9 +315,8 @@ gsap.from('.card__06', {
     scrollTrigger: {
         trigger: '.card__06 ',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 
 });
@@ -346,9 +332,8 @@ gsap.from('.contact-section__title', {
     scrollTrigger: {
         trigger: '.contact-section__title',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 
 });
@@ -364,9 +349,8 @@ gsap.from('.contact-section__media-body', {
     scrollTrigger: {
         trigger: '.contact-section__media-body',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 
 });
@@ -382,9 +366,8 @@ gsap.from('.contact-section__google-map', {
     scrollTrigger: {
         trigger: '.contact-section__google-map',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
   });
 
@@ -399,9 +382,8 @@ gsap.from('.about-section__title', {
     scrollTrigger: {
         trigger: '.about-section__title',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 
 });
@@ -415,9 +397,8 @@ gsap.from('.about-container', {
     scrollTrigger: {
         trigger: '.about-container',
         scroller: 'body',
-        // markers: true,//scrolltriggerが発動するタイミングを分かりやすくするための補助線を表示
-        start: 'top 80%',//上から75％の部分に活動するトリガーをつける）
-
+        // markers: true,
+        start: 'top 80%',
     },
 
 });
