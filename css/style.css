@@ -1,0 +1,498 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    height: auto;
+    font-family: 'noto sans JP', sans-serif;
+    max-width: 1440px;
+    font-size: 1.6em;
+    color: #575757;
+}
+
+h1 {
+    font-size: 5.6rem;
+}
+
+h2 {
+    font-size: 4rem;
+    padding-bottom: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+    padding-bottom: 16px;
+}
+
+h4 {
+    font-size: 2.4rem;
+    padding-bottom: 16px;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+a {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+a.slide-menu__link{
+    font-size: 2.4rem;
+}
+
+.contact-section__form-button-area{
+   
+    
+    padding: 16px 0 32px;
+
+}
+
+.contact-section__form-button {
+    width: 200px;
+    display: block;
+    padding: 16px 24px;
+    box-shadow: 5px 5px 4px #979797;
+    border: 1px solid #979797;
+    text-align: center;
+}
+
+
+
+section {
+    padding: 100px 80px 80px; /* Adjusted top padding */
+}
+
+.container {
+    padding: 80px;
+}
+
+.section-title-area {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/laundry.png);
+    background-size: cover;
+}
+
+.section--title--area > h2 {
+    padding-bottom: 0;
+}
+
+/* Header */
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.519);
+    z-index: 1;
+}
+
+.header__logo-image {
+    width: 64px;
+    height: auto;
+    align-items: center;
+}
+
+.header__nav > .nav__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav__list > .nav__item > a {
+    display: block;
+    padding: 16px 20px;
+    box-shadow: 5px 5px 4px #c9c8c8;
+}
+
+/* Hamburger Menu */
+
+
+.hamburger-menu {
+    display: none; /* デフォルトでは非表示 */
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    z-index: 2; /* ヘッダーより前面に表示 */
+}
+
+.hamburger-menu span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 6px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hamburger-menu span:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.slide-menu {
+    display: flex;
+    flex-direction: column; /* 縦並びにする */
+    justify-content: flex-start; /* 上寄せにする */
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    top: 0; /* 上端に固定 */
+    right: -300px;
+    width: 250px; /* 幅を固定 */
+    height: 60vh; /* 画面いっぱいに表示 */
+    background-color: #ffffffee;
+    transition: right 0.3s ease-in-out;
+    border: #a8a6a6 solid 1px;
+    z-index: 1; /* ヘッダーの背面に表示 */
+    padding: 80px 0; /* 上部に余白を追加 */
+
+    margin-top: 100px;
+}
+
+.slide-menu.active {
+    right: 0;
+}
+
+.slide-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0; /* パディングを削除 */
+    width: 100%; /* 幅を100%にする */
+    gap: 32px;
+}
+
+.slide-menu li {
+    width: 100%; /* 幅を100%にする */
+    text-align: center; /* テキストを中央揃えにする */
+    
+}
+
+.slide-menu a {
+   
+    margin-bottom: 0; /* マージンを削除 */
+    padding: 16px 0; /* 上下にパディングを追加 */
+    width: 100%; /* 幅を100%にする */
+}
+
+
+
+
+
+
+
+
+/* Top-view */
+.top-section {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/laundry.png);
+    background-size: cover;
+}
+
+.top-section__container {
+    margin: 0;
+}
+
+.top-section--image {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+/* Concept */
+.concept-section__wrapper {
+    padding: 160px 80px 0;
+}
+
+.concept-section__img { 
+    background-image: url(../img/new-logo.png);
+    background-color: rgba(255, 255, 255, 0.9);
+    background-blend-mode: lighten; /* ブレンドモード*/
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: right 160px;
+}
+
+
+.concept-section__inner {
+    padding: 0 80px;
+}
+
+.concept-section__article {
+    padding-top: 24px;
+}
+
+/* news */
+
+.news-container {
+    padding: 80px 80px 0px;
+}
+
+
+/* Service */
+.service-section__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    padding: 40px 20px;
+}
+
+.service-section__body {
+    padding: 24px;
+    overflow: hidden;
+}
+
+.service-section__item {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #979797;
+    aspect-ratio: 9/16;
+    padding: 16px;
+}
+
+.service-section__image {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #979797;
+    padding: 24px;
+}
+
+/* Contact */
+.contact-section__media-body {
+    column-gap: 24px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+.contact-section__map {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-section__google-map{
+    width: 100%;
+    height: auto;
+}
+
+/* About */
+.about-section__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(402px, 1fr));
+    gap: 24px;
+}
+
+.contact-section__form-area{
+    padding-top: 24px;
+}
+
+
+
+.about-section__area {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about-section__online-area {
+    display: flex;
+    width: 100%;
+    padding: 16px 0 32px;
+}
+
+.about-section__button {
+    display: block;
+    padding: 16px 24px;
+    box-shadow: 5px 5px 4px #979797;
+    border: 1px solid #979797;
+}
+
+.about-section__sns-title {
+    text-transform: uppercase;
+}
+
+.about-section__sns-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 24px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.2rem;
+    }
+
+    h3 {
+        font-size: 2.4rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+/* 
+    .header__nav > .nav__list {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    } */
+    section{
+        padding: 100px 0 80px;
+    }
+
+    .top-section{
+        padding: 80px 40px;
+    }
+
+    .container {
+        padding: 80px;
+    }
+
+    .header__nav > .nav__list {
+        display: none; /* ナビゲーションを非表示 */
+    }
+
+    .hamburger-menu {
+        display: block; /* ハンバーガーメニューを表示 */
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    .section{
+        padding: 80px 0;
+    }
+
+    
+
+    .container {
+        padding: 80px 24px;
+    }
+
+    .top-section--image {
+        padding: 24px;
+    }
+
+    .concept-section__inner {
+        padding: 80px 24px;
+    }
+
+    .service-section__list {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .contact-container {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .contact-section__google-map{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 4/3;
+    }
+
+    .about-section__sns-list{
+        justify-content: space-between;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .service-container{
+        justify-content: center;
+        padding: 0;
+    }
+
+    .service-section__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service-section__item {
+        width: 250px;
+        height: auto;
+        border: 1px solid #979797;
+        aspect-ratio: 3/4;
+        
+        padding: 16px;
+    }
+    
+    .service-section__image {
+        width: 100%;
+        border-radius: 50%;
+        border: 1px solid #979797;
+        padding: 24px;
+    }
+
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+.contact-section__form-button {
+    width: auto;
+}
+}
