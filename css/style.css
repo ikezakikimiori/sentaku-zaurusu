@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     height: auto;
     font-family: 'noto sans JP', sans-serif;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     font-size: 1.6em;
     color: #575757;
 }
@@ -181,6 +181,11 @@ header {
     margin-bottom: 0;
     padding: 16px 0;
     width: 100%; 
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* Top-view */
