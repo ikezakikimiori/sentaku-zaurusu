@@ -109,6 +109,14 @@ header {
     display: block;
     padding: 16px 20px;
     box-shadow: 5px 5px 4px #c9c8c8;
+    border: 1px solid #c9c8c8;
+
+}
+
+.nav__list > .nav__item > a:hover{
+    transform: translate(5px, 5px);
+    box-shadow:  1px 1px 2px #c9c8c8;
+    transition: transform 0.1s;  
 }
 
 /* Hamburger Menu */
@@ -320,6 +328,14 @@ iframe {
     display: block;
     padding: 16px 24px;
     box-shadow: 5px 5px 4px #979797;
+    border: 1px solid #979797;
+}
+
+.about-section__button:hover {
+    display: block;
+     transform: translate(5px, 5px);
+    transition:  0.1s ;
+    box-shadow: 2px 2px 4px #979797;
     border: 1px solid #979797;
 }
 
