@@ -364,6 +364,10 @@ iframe {
     padding-top: 24px;
 }
 
+.profile {
+    padding-top: 80px;
+}
+
 /* footer */
 .footer{
     width: 100%;
