@@ -33,7 +33,7 @@ h4 {
 
 p {
     font-size: 1.6rem;
-    line-height: 2;
+    line-height: 2.4rem;
 }
 
 a {
@@ -263,6 +263,49 @@ section {
     padding: 24px;
 }
 
+/* voice */
+.voice__medias {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.voice__media {
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+    border: 1px solid #979797;
+}
+
+.voice_media__text {
+    display: flex;
+    align-items: center;
+    line-height: 2;
+}
+
+.voice__btn__area {
+  display: flex;
+  justify-content: end;
+    width: 100%;
+    padding: 16px 0 32px;
+}
+
+.voice__btn {
+       display: block;
+    padding: 16px 24px;
+    box-shadow: 5px 5px 4px #979797;
+    border: 1px solid #979797;
+}
+
+.voice__btn:hover {
+    display: block;
+     transform: translate(5px, 5px);
+    transition:  0.1s ;
+    box-shadow: 2px 2px 4px #979797;
+    border: 1px solid #979797;
+}
+
+
 /* Contact */
 .contact-section__media-body {
     column-gap: 24px;
@@ -415,6 +458,11 @@ iframe {
         display: block; 
     }
 
+    /* voice */
+    .voice-container {
+        padding: 80px 40px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -458,7 +506,15 @@ iframe {
         grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     }
 
-    
+    /* voice   */
+    .voice__media {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+
+    }
 
     .contact-section__google-map{
         width: 100%;
@@ -469,7 +525,7 @@ iframe {
         justify-content: space-between;
         gap: 16px;
     }
-}
+
 
 @media screen and (max-width: 400px){
 
@@ -512,7 +568,6 @@ iframe {
         /* border: 2px solid #000; */
        
     }
-
 
     .contact-section__form-button {
         width: auto;
