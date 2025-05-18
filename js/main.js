@@ -357,14 +357,14 @@ gsap.from('.contact-section__media-body', {
 
 // --------------------------------------------
 
-gsap.from('.contact-section__google-map', {
-    scrollTrigger: '.contact-section__google-map',
+gsap.from('.contact-section__map', {
+    scrollTrigger: '.contact-section__map',
     scale: 1.2,
     delay: 0.5,
     duration:0.5,
     opacity: 0,
     scrollTrigger: {
-        trigger: '.contact-section__google-map',
+        trigger: '.contact-section__map',
         scroller: 'body',
         // markers: true,
         start: 'top 80%',
