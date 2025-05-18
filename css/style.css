@@ -3,6 +3,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
     margin: 0 auto;
     height: auto;
@@ -180,7 +181,6 @@ header {
 }
 
 main {
-    /* max-width: 1440px; */
     margin: 0 auto;
 }
 
@@ -192,7 +192,7 @@ main {
     background-size: cover;
 }
 
-section {
+.section {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -202,7 +202,7 @@ section {
 }
 
 .top-section--image {
-    max-width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -278,6 +278,10 @@ section {
     border: 1px solid #979797;
 }
 
+.voice__media__img {
+    stroke-width: 1;
+}
+
 .voice_media__text {
     display: flex;
     align-items: center;
@@ -342,7 +346,6 @@ section {
     box-shadow: 1px 1px 2px #979797;
 
 }
-
 
 .contact-section__map {
     max-width: 500px;
