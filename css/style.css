@@ -107,16 +107,17 @@ header {
 }
 
 /* Hamburger Menu */
+
 .hamburger-menu {
-    display: none; /* デフォルトでは非表示 */
+    display: none;
     width: 30px;
     height: 20px;
     position: absolute;
-    top: 20px;
+    top: 30px;
     right: 20px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
-    z-index: 2; /* ヘッダーより前面に表示 */
+    z-index: 2;
 }
 
 .hamburger-menu span {
@@ -301,7 +302,7 @@ section {
     display: block;
      transform: translate(5px, 5px);
     transition:  0.1s ;
-    box-shadow: 2px 2px 4px #979797;
+    box-shadow: 1px 1px 2px #979797;
     border: 1px solid #979797;
 }
 
@@ -401,7 +402,10 @@ iframe {
 }
 
 .about-section__sns-list {
+    max-width: 320px;
+    width: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
     padding-top: 24px;
