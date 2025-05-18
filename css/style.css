@@ -64,7 +64,7 @@ section {
     background-size: cover;
 }
 
-.section--title--area > h2 {
+.section-title-area > h2 {
     padding-bottom: 0;
 }
 
@@ -353,7 +353,7 @@ main {
     height: 100%;
 }
 
-.contact-section__google-map{
+.contact-section__map{
     width: 100%;
     height: auto;
 }
