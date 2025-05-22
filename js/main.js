@@ -340,65 +340,65 @@ gsap.from('.contact-section__title', {
 
 // -----------------------------------------
 
-gsap.from('.contact-section__media-body', {
-    scrollTrigger: '.contact-section__media-body',
-    x:-50,
-    delay: 0.5,
-    duration:0.5,
-    opacity:0,
-    scrollTrigger: {
-        trigger: '.contact-section__media-body',
-        scroller: 'body',
-        // markers: true,
-        start: 'top 80%',
-    },
+// gsap.from('.contact-section__media-body', {
+//     scrollTrigger: '.contact-section__media-body',
+//     x:-50,
+//     delay: 0.5,
+//     duration:0.5,
+//     opacity:0,
+//     scrollTrigger: {
+//         trigger: '.contact-section__media-body',
+//         scroller: 'body',
+//         // markers: true,
+//         start: 'top 80%',
+//     },
 
-});
+// });
 
 // --------------------------------------------
 
-gsap.from('.contact-section__map', {
-    scrollTrigger: '.contact-section__map',
-    scale: 1.2,
-    delay: 0.5,
-    duration:0.5,
-    opacity: 0,
-    scrollTrigger: {
-        trigger: '.contact-section__map',
-        scroller: 'body',
-        // markers: true,
-        start: 'top 80%',
-    },
-  });
+// gsap.from('.contact-section__map', {
+//     scrollTrigger: '.contact-section__map',
+//     scale: 1.2,
+//     delay: 0.5,
+//     duration:0.5,
+//     opacity: 0,
+//     scrollTrigger: {
+//         trigger: '.contact-section__map',
+//         scroller: 'body',
+//         // markers: true,
+//         start: 'top 80%',
+//     },
+//   });
 
 //   --------------------------------
 
-gsap.from('.about-section__title', {
-    scrollTrigger: '.about-section__title',
-    x:-50,
-    delay: 0.5,
-    duration:0.3,
-    opacity: 0,
-    scrollTrigger: {
-        trigger: '.about-section__title',
-        scroller: 'body',
-        // markers: true,
-        start: 'top 80%',
-    },
+// gsap.from('.about-section__title', {
+//     scrollTrigger: '.about-section__title',
+//     x:-50,
+//     delay: 0.5,
+//     duration:0.3,
+//     opacity: 0,
+//     scrollTrigger: {
+//         trigger: '.about-section__title',
+//         scroller: 'body',
+//         // markers: true,
+//         start: 'top 80%',
+//     },
 
-});
+// });
 
-gsap.from('.about-container', {
-    scrollTrigger: '.about-container',
-    scale: 1.2,
-    delay: 0.5,
-    duration:0.5,
-    opacity: 0,
-    scrollTrigger: {
-        trigger: '.about-container',
-        scroller: 'body',
-        // markers: true,
-        start: 'top 80%',
-    },
+// gsap.from('.about-container', {
+//     scrollTrigger: '.about-container',
+//     scale: 1.2,
+//     delay: 0.5,
+//     duration:0.5,
+//     opacity: 0,
+//     scrollTrigger: {
+//         trigger: '.about-container',
+//         scroller: 'body',
+//         // markers: true,
+//         start: 'top 80%',
+//     },
 
-});
+// });
