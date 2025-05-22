@@ -3,12 +3,13 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     margin: 0 auto;
     height: auto;
-    font-family: 'noto sans JP', sans-serif;
-    /* max-width: 1440px; */
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1.6em;
     color: #575757;
 }
